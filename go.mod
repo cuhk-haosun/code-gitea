@@ -1,6 +1,6 @@
 module code.gitea.io/gitea
 
-go 1.24
+go 1.24.0
 
 // rfc5280 said: "The serial number is an integer assigned by the CA to each certificate."
 // But some CAs use negative serial number, just relax the check. related:
@@ -55,7 +55,7 @@ require (
 	github.com/go-co-op/gocron v1.37.0
 	github.com/go-enry/go-enry/v2 v2.9.2
 	github.com/go-git/go-billy/v5 v5.6.2
-	github.com/go-git/go-git/v5 v5.14.0
+	github.com/go-git/go-git/v5 v5.16.5
 	github.com/go-ldap/ldap/v3 v3.4.10
 	github.com/go-redsync/redsync/v4 v4.13.0
 	github.com/go-sql-driver/mysql v1.9.1
@@ -113,18 +113,18 @@ require (
 	github.com/wneessen/go-mail v0.6.2
 	github.com/xeipuuv/gojsonschema v1.2.0
 	github.com/yohcop/openid-go v1.0.1
-	github.com/yuin/goldmark v1.7.8
+	github.com/yuin/goldmark v1.7.13
 	github.com/yuin/goldmark-highlighting/v2 v2.0.0-20230729083705-37449abec8cc
 	github.com/yuin/goldmark-meta v1.1.0
 	gitlab.com/gitlab-org/api/client-go v0.126.0
-	golang.org/x/crypto v0.36.0
+	golang.org/x/crypto v0.45.0
 	golang.org/x/image v0.25.0
-	golang.org/x/net v0.37.0
+	golang.org/x/net v0.47.0
 	golang.org/x/oauth2 v0.28.0
-	golang.org/x/sync v0.12.0
-	golang.org/x/sys v0.31.0
-	golang.org/x/text v0.23.0
-	golang.org/x/tools v0.31.0
+	golang.org/x/sync v0.18.0
+	golang.org/x/sys v0.38.0
+	golang.org/x/text v0.31.0
+	golang.org/x/tools v0.38.0
 	google.golang.org/grpc v1.71.0
 	google.golang.org/protobuf v1.36.5
 	gopkg.in/ini.v1 v1.67.0
@@ -181,7 +181,7 @@ require (
 	github.com/caddyserver/zerossl v0.1.3 // indirect
 	github.com/cention-sany/utf7 v0.0.0-20170124080048-26cad61bd60a // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
-	github.com/cloudflare/circl v1.6.0 // indirect
+	github.com/cloudflare/circl v1.6.1 // indirect
 	github.com/couchbase/go-couchbase v0.1.1 // indirect
 	github.com/couchbase/gomemcached v0.3.3 // indirect
 	github.com/couchbase/goutils v0.1.2 // indirect
@@ -306,8 +306,9 @@ require (
 	go.uber.org/zap v1.27.0 // indirect
 	go.uber.org/zap/exp v0.3.0 // indirect
 	golang.org/x/exp v0.0.0-20250305212735-054e65f0b394 // indirect
-	golang.org/x/mod v0.24.0 // indirect
+	golang.org/x/mod v0.29.0 // indirect
 	golang.org/x/time v0.11.0 // indirect
+	golang.org/x/tools/godoc v0.1.0-deprecated // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20250313205543-e70fdf4c4cb4 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
